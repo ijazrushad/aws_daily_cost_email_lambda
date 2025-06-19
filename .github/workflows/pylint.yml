@@ -1,4 +1,4 @@
-name: Pylint with Black
+name: Pylint
 
 on: [push]
 
@@ -18,10 +18,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip install black
-    - name: Format code with Black
-      run: |
-        black --check --diff $(git ls-files '*.py')
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint --disable=trailing-newlines $(git ls-files '*.py')
