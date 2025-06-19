@@ -185,4 +185,5 @@ def send_email(source, to, subject, body):
         print(f"Email sent successfully. Message ID: {response['MessageId']}")
     except Exception as e:
         print(f"Error sending email: {str(e)}")
+        
         raise e
