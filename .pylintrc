@@ -1,0 +1,11 @@
+
+[MESSAGES CONTROL]
+# Disable trailing newlines check
+disable=trailing-newlines
+
+[FORMAT]
+# Maximum number of characters on a single line
+max-line-length=88
+
+# Expected format of line ending, e.g. empty (any line ending), LF or CRLF
+expected-line-ending-format=
