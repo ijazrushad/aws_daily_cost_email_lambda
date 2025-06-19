@@ -1,10 +1,3 @@
-Of course. You are right, a wall of text is hard to read. A well-formatted and attractive `README` makes a project much more professional and easier to understand.
-
-Let's create a much better version using modern GitHub Markdown styling, including badges, emojis, tables, and collapsible sections. This will look great on your GitHub repository.
-
------
-
-### **Copy the text below and paste it into your `README.md` file on GitHub.**
 
 # 📊 AWS Daily Cost Reporting Email Lambda
 
